@@ -8,7 +8,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 @Component
-@Scope("singleton")
+@Scope("prototype")
 //@Scope("prototype")
 public class TennisCoach implements Coach{
     @Autowired
